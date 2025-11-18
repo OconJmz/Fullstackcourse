@@ -4,23 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css intro</title>
+    <title>css intro/selectors</title>
     <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
-    <h1>Example 1</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quidem quisquam ab ipsam repudiandae reiciendis
-        dolorum, nobis sunt eos numquam non hic blanditiis maxime earum suscipit deserunt itaque laboriosam corrupti.
-    </p>
-    <hr>
-    <h2>Example 2</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quidem quisquam ab ipsam repudiandae reiciendis
-        dolorum, nobis sunt eos numquam non hic blanditiis maxime earum suscipit deserunt itaque laboriosam corrupti.
-    </p>
-    <hr>
-    <h3>Example 3</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quidem quisquam ab ips</p>
-
+    <nav>
+        <label for="search">Search</label>
+        <input type="text" placeholder="search" id="search">
+        <input type="password" placeholder="password">
+        <button>Log In</button>
+    </nav>
+    <main>
+        <h1>Popular post</h1>
+        <section class="post">
+            <span>Posted By <a href="#21adas">u not funny</a></span>
+            <h2>lol look at this</h2><span class="tag">funny</span>
+            <button>+vote</button>
+            <hr>
+        </section>
+        <section class="post">
+            <span>posted by <a href="345adas">gooner4life</a></span>
+            <h2>happy birthday</h2>
+            <button>+vote</button>
+            <hr>
+        </section>
+        <section class="post">
+            <span>posted by <a href="981adas"></a></span>
+            <h2>this corgi <span class="tag"></span></h2>
+            <button>+vote</button>
+            <hr>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">about</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
+                <li>
+                    <a href="#puppies">puppies</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 
 </html>

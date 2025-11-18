@@ -1,13 +1,22 @@
-h1 {
-    text-align: center;
-    font-weight: 400;
-    text-decoration: #f78120 underline wavy;
+input [type="password"] {
+    color: yellow;
 }
 
-a {
-    text-decoration: none;
+section.post {
+    background-color: purple;
 }
 
-p {
-    line-height: 1.6;
+/*button:hover {
+
+    background-color: orange;
+    color: white;
+}*/
+
+.post button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.post:nth-of-type(2n) {
+    background-color: lightgray;
 }
